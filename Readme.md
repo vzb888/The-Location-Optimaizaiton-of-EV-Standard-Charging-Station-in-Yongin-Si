@@ -7,9 +7,9 @@
 - 용인시 지역 특성을 반영한 객관적인 최적의 충전소 입지선정지수 개발 및 이를 통한 충전소 최적화 모델 구축
 - 데이터셋
     - 빅콘테스트 데이터셋 
-     >ev_app_resident(2022.6.1~ 2022. 6.30 까지의 용인시 거주자의 전기차 앱실행 고객수)
-     >ev_app_activity(2022.6.1~ 2022. 6.30 까지의 용인시 유동인구의 전기차 앱실행 고객수)
-     >ev_app_activity_resident(2022.6.1~ 2022. 6.30 까지의 용인시 거주자의 타지역 전기차 앱실행 고객수)
+     -ev_app_resident(2022.6.1~ 2022. 6.30 까지의 용인시 거주자의 전기차 앱실행 고객수)
+     -ev_app_activity(2022.6.1~ 2022. 6.30 까지의 용인시 유동인구의 전기차 앱실행 고객수)
+     -ev_app_activity_resident(2022.6.1~ 2022. 6.30 까지의 용인시 거주자의 타지역 전기차 앱실행 고객수)
      
 - Process
     - 사용 툴 : Python, QGIS
@@ -30,7 +30,7 @@
     - MCLP(Maximal Covering Location Problem)
     : 주어진 제약조건 하에서 시설물이 커버하는 수요량을 최대화하는 위치를 선정
     
-    <img src="https://i.stack.imgur.com/ptOaG.png" width="370" height="600">
+    <img src="https://i.stack.imgur.com/ptOaG.png" width="450" height="600">
     
     참고 자료 : [https://stackoverflow.com/questions/51501074/implementing-mclp-in-pulp](https://stackoverflow.com/questions/51501074/implementing-mclp-in-pulp)
     
