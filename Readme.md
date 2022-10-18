@@ -7,9 +7,10 @@
 - 용인시 지역 특성을 반영한 객관적인 최적의 충전소 입지선정지수 개발 및 이를 통한 충전소 최적화 모델 구축
 - 데이터셋
     - 빅콘테스트 데이터셋 
-     ev_app_resident(2022.6.1~ 2022. 6.30 까지의 용인시 거주자의 전기차 앱실행 고객수)
-     ev_app_activity(2022.6.1~ 2022. 6.30 까지의 용인시 유동인구의 전기차 앱실행 고객수)
-     ev_app_activity_resident(2022.6.1~ 2022. 6.30 까지의 용인시 거주자의 타지역 전기차 앱실행 고객수)
+     >ev_app_resident(2022.6.1~ 2022. 6.30 까지의 용인시 거주자의 전기차 앱실행 고객수)
+     >ev_app_activity(2022.6.1~ 2022. 6.30 까지의 용인시 유동인구의 전기차 앱실행 고객수)
+     >ev_app_activity_resident(2022.6.1~ 2022. 6.30 까지의 용인시 거주자의 타지역 전기차 앱실행 고객수)
+     
 - Process
     - 사용 툴 : Python, QGIS
     - EDA
@@ -17,6 +18,7 @@
     - 지수 추출
     x_score = w1 * x1 + w2 * x2
     >Y  : 격자 당 LG U+ 전기차 앱 실행 수 , x1 : 격자 당 인구 밀도, x2 : 격자 당 전기차 등록 대수(추정)
+    
         - 목적 : 데이터를 활용하여 완충형 전기차 충전소 입지 선정을 위한 지수 개발 후, 최적의 입지 추천
         - 방법
             - 수요 요인, 접근성 요인, 부지 적합성 요인을 이용
@@ -28,7 +30,7 @@
     - MCLP(Maximal Covering Location Problem)
     : 주어진 제약조건 하에서 시설물이 커버하는 수요량을 최대화하는 위치를 선정
     
-    <img src="https://i.stack.imgur.com/ptOaG.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f55a3ba1-b39d-40f3-9ae2-afb1a919083d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221018%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221018T055152Z&X-Amz-Expires=86400&X-Amz-Signature=63f5787b41f63225c6fce684fb155032078e2ae6529ce5a8962157258458ed39&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" width="700" height="370">
+    <img src="https://i.stack.imgur.com/ptOaG.png" width="370" height="600">
     
     참고 자료 : [https://stackoverflow.com/questions/51501074/implementing-mclp-in-pulp](https://stackoverflow.com/questions/51501074/implementing-mclp-in-pulp)
     
