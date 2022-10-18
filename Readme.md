@@ -28,7 +28,7 @@
     - MCLP(Maximal Covering Location Problem)
     : 주어진 제약조건 하에서 시설물이 커버하는 수요량을 최대화하는 위치를 선정
     
-    ![Untitled](Read%20me%20430988d059484a8d9fa7b25cb8e61f2d/Untitled.png)
+    <img src="https://i.stack.imgur.com/ptOaG.png">
     
     참고 자료 : [https://stackoverflow.com/questions/51501074/implementing-mclp-in-pulp](https://stackoverflow.com/questions/51501074/implementing-mclp-in-pulp)
     
