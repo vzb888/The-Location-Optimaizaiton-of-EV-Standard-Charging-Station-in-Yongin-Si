@@ -6,7 +6,7 @@
 
 ### 📅 프로젝트 진행기간
 
-> 2022. 09. 22 ~ 2022. 10. 14
+> 2022. 9. 22 ~ 2022. 10. 14
 > 
 
 ### 📔 프로젝트 내용
@@ -75,15 +75,8 @@
         - 제외한 비개방형 충전소 : 아파트, 오피스텔, 주상복합, 빌라, 호텔
 - **지수 추출**
     - 데이터를 활용하여 완충형 전기차 충전소 입지 선정을 위한 지수 개발 후, 최적의 입지 추천
-        
-        $$
-        \large x\_score=w_1*x_1+w_2*x_2\\[10pt]
-        \small Y=격자\ 당 LG\ U+ 전기차\ 앱\ 실행\ 수\\ [10pt]
-        x_1=격자\ 당\ 인구\ 밀도 \\[2pt]
-        x_2 = 전기차\ 등록\ 수\\[10pt]
-        w_1 = \frac{cor_{인구}}{cor_{인구}+cor_{전기차\ 등록\ 수}}\\[5pt]
-        w_2 = \frac{cor_{전기차\ 등록\ 수}}{cor_{인구}+cor_{전기차\ 등록\ 수}}
-        $$
+<img src = "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3a25230e-8cf9-4f15-9901-091c76d6493a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221024%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221024T052418Z&X-Amz-Expires=86400&X-Amz-Signature=56e48c78ee172ac770c67ee9665c9501739f64d6847b4fb002b2e2c8fe926fca&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject">        
+
         
     
     - 방법
@@ -126,4 +119,4 @@
 - 기존 설치된 각각 충전소의 수요와 공급량을 비교하여 가중치 조절을 해 새로운 충전소 입지를 고려 하여야 했으나, 기존 충전소 중심 반경 1km의 모든 수요를 커버한다 가정했기 때문에 결과에 대한 정밀도가 떨어짐. 충전소 별 충전기 대수를 계산 및 관련 법규 참고하여 면적별 충전소 당 설치가능 충전기 대 수의 일일 최대 커버량 만큼만 처리 하도록 보완 해야 함.
 
 
-<!-- 참고: https://shields.io/](https://stackoverflow.com/questions/51501074/implementing-mclp-in-pulp -->
+참고자료: https://stackoverflow.com/questions/51501074/implementing-mclp-in-pulp
