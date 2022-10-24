@@ -96,16 +96,16 @@
     (상관관계가 적을 경우 제외(0.2 이하)) → 주유소와의 거리는 전기차 충전 수요와 관계가 없다는 결론
     - 피어슨 상관계수 사용
 
-![Untitled](README%20430988d059484a8d9fa7b25cb8e61f2d/Untitled.png)
+<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a4bfef8f-8630-455b-9a69-cb8535969bb2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221024%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221024T051446Z&X-Amz-Expires=86400&X-Amz-Signature=b6f805132cd065c866980cd14ab688882fd9f410ab55e4daff96080a3449237a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject">
 
 - **MCLP**(Maximal Covering Location Problem)
 : 주어진 제약조건 하에서 시설물이 커버하는 수요량을 최대화하는 위치를 선정
 
-![Untitled](README%20430988d059484a8d9fa7b25cb8e61f2d/Untitled%201.png)
+<img src= "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f55a3ba1-b39d-40f3-9ae2-afb1a919083d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221024%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221024T051637Z&X-Amz-Expires=86400&X-Amz-Signature=6d51e2678a5869810c82fec7c3f9ec2b7e9bf61736caddead2c84c7298944b6b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject">
 
 ### **🏅 결과**
 
-![Screenshot 2022-10-21 at 11.47.46 AM.png](README%20430988d059484a8d9fa7b25cb8e61f2d/Screenshot_2022-10-21_at_11.47.46_AM.png)
+<img src= "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/593df7ba-ccef-4aac-9580-0a6c2a2bdab8/Screenshot_2022-10-21_at_11.47.46_AM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221024%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221024T051659Z&X-Amz-Expires=86400&X-Amz-Signature=e233982b51fb12ded87abdefabc41e39767faa9173d875b8f606333c50024b42&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Screenshot%25202022-10-21%2520at%252011.47.46%2520AM.png%22&x-id=GetObject">
 
 - 수요량(x_score 지수를 통해 추출)을 지도에 점으로 표시 (Legend 그림참고)
     - 채택된 후보군
@@ -124,3 +124,6 @@
 - EDA로 활용한 교통량 데이터와 공영 주차장 위치 데이터 등을 입지선정 모델의 지수로 활용 할 수 있는 방안 모색 필요.
 - 앱 실행 수 한가지만 Y값으로 설정 하였으나, 충전소 별 일일 충전량을 추가 데이터로 사용 하여 Y 값을 보완 하였다면 좀 더 명확한 수요량 지수에 대한 타당성을 확보 할 수 있을 것.
 - 기존 설치된 각각 충전소의 수요와 공급량을 비교하여 가중치 조절을 해 새로운 충전소 입지를 고려 하여야 했으나, 기존 충전소 중심 반경 1km의 모든 수요를 커버한다 가정했기 때문에 결과에 대한 정밀도가 떨어짐. 충전소 별 충전기 대수를 계산 및 관련 법규 참고하여 면적별 충전소 당 설치가능 충전기 대 수의 일일 최대 커버량 만큼만 처리 하도록 보완 해야 함.
+
+
+<!-- 참고: https://shields.io/](https://stackoverflow.com/questions/51501074/implementing-mclp-in-pulp -->
