@@ -90,7 +90,7 @@
     (상관관계가 적을 경우 제외(0.2 이하)) → 주유소와의 거리는 전기차 충전 수요와 관계가 없다는 결론
     - 피어슨 상관계수 사용
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a4bfef8f-8630-455b-9a69-cb8535969bb2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221024%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221024T051446Z&X-Amz-Expires=86400&X-Amz-Signature=b6f805132cd065c866980cd14ab688882fd9f410ab55e4daff96080a3449237a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject">
+![correlation](https://user-images.githubusercontent.com/104626180/202469742-3304561e-c90f-4cb0-b571-b7eea92cf74f.png)
 
 - **MCLP**(Maximal Covering Location Problem)
 : 주어진 제약조건 하에서 시설물이 커버하는 수요량을 최대화하는 위치를 선정
