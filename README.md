@@ -98,7 +98,7 @@
 
 ### **🏅 결과**
 
-<img src= "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/593df7ba-ccef-4aac-9580-0a6c2a2bdab8/Screenshot_2022-10-21_at_11.47.46_AM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221024%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221024T051659Z&X-Amz-Expires=86400&X-Amz-Signature=e233982b51fb12ded87abdefabc41e39767faa9173d875b8f606333c50024b42&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Screenshot%25202022-10-21%2520at%252011.47.46%2520AM.png%22&x-id=GetObject">
+![image](https://user-images.githubusercontent.com/104626180/202468751-e245c42f-4169-4856-b798-e6b1765dab02.png)
 
 - 수요량(x_score 지수를 통해 추출)을 지도에 점으로 표시 (Legend 그림참고)
     - 채택된 후보군
