@@ -75,7 +75,8 @@
         - 제외한 비개방형 충전소 : 아파트, 오피스텔, 주상복합, 빌라, 호텔
 - **지수 추출**
     - 데이터를 활용하여 완충형 전기차 충전소 입지 선정을 위한 지수 개발 후, 최적의 입지 추천
-<img src = "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3a25230e-8cf9-4f15-9901-091c76d6493a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221024%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221024T052418Z&X-Amz-Expires=86400&X-Amz-Signature=56e48c78ee172ac770c67ee9665c9501739f64d6847b4fb002b2e2c8fe926fca&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject">        
+    
+![Untitled](https://user-images.githubusercontent.com/104626180/202469374-7d0f7559-5995-4be6-b52f-fbd4534b4cf8.png)      
 
         
     
