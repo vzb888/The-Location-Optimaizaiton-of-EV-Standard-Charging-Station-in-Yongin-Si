@@ -95,7 +95,7 @@
 - **MCLP**(Maximal Covering Location Problem)
 : 주어진 제약조건 하에서 시설물이 커버하는 수요량을 최대화하는 위치를 선정
 
-<img src= "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f55a3ba1-b39d-40f3-9ae2-afb1a919083d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221024%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221024T051637Z&X-Amz-Expires=86400&X-Amz-Signature=6d51e2678a5869810c82fec7c3f9ec2b7e9bf61736caddead2c84c7298944b6b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject">
+![mclp](https://user-images.githubusercontent.com/104626180/202470151-01e51f54-9820-45df-8ab1-a3ca9c1fd9c5.png)
 
 ### **🏅 결과**
 
