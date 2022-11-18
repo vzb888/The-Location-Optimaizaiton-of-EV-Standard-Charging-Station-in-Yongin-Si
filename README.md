@@ -75,8 +75,9 @@
         - 제외한 비개방형 충전소 : 아파트, 오피스텔, 주상복합, 빌라, 호텔
 - **지수 추출**
     - 데이터를 활용하여 완충형 전기차 충전소 입지 선정을 위한 지수 개발 후, 최적의 입지 추천
-    
-![Untitled](https://user-images.githubusercontent.com/104626180/202469374-7d0f7559-5995-4be6-b52f-fbd4534b4cf8.png)      
+
+![Untitled](https://user-images.githubusercontent.com/104626180/202595060-221dbdc7-13e0-43dd-beda-8f3774d3847c.png)
+
 
         
     
@@ -90,16 +91,18 @@
     (상관관계가 적을 경우 제외(0.2 이하)) → 주유소와의 거리는 전기차 충전 수요와 관계가 없다는 결론
     - 피어슨 상관계수 사용
 
-![correlation](https://user-images.githubusercontent.com/104626180/202469742-3304561e-c90f-4cb0-b571-b7eea92cf74f.png)
+![correlation](https://user-images.githubusercontent.com/104626180/202595081-3e4fcca3-6070-48c8-ad83-403a8a93804c.png)
+
 
 - **MCLP**(Maximal Covering Location Problem)
 : 주어진 제약조건 하에서 시설물이 커버하는 수요량을 최대화하는 위치를 선정
+![mclp](https://user-images.githubusercontent.com/104626180/202595106-cc6b2b1f-e7ab-4b9f-8c0c-345025f7a378.png)
 
-![mclp](https://user-images.githubusercontent.com/104626180/202470151-01e51f54-9820-45df-8ab1-a3ca9c1fd9c5.png)
+
 
 ### **🏅 결과**
 
-![image](https://user-images.githubusercontent.com/104626180/202468751-e245c42f-4169-4856-b798-e6b1765dab02.png)
+![Screenshot 2022-10-21 at 11 47 46 AM](https://user-images.githubusercontent.com/104626180/202595019-c3807861-4c2c-4a67-bacf-38879373abc5.jpg)
 
 - 수요량(x_score 지수를 통해 추출)을 지도에 점으로 표시 (Legend 그림참고)
     - 채택된 후보군
